@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import axios from 'axios'
 import { useState } from 'react'
-import { BsSearch } from 'react-icons/bs'
+import { BsQuestion, BsSearch } from 'react-icons/bs'
 
 
 export default function Home() {
@@ -33,7 +33,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <button onClick={fetchWeather}>Fetch data</button>
+      <button onClick={fetchWeather}>Click to fetch weather data</button>
     </div>
   )
 }
+
